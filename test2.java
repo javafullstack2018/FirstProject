@@ -12,7 +12,7 @@ public class ChainLink {
     }
     
     public Side longerSide() {        
-	// insert your code here
+	// insert your code here, make any changes you like
         throw new UnsupportedOperationException("Waiting to be implemented.");
     }
     

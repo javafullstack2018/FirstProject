@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>test_hanhu</artifactId>
+  <artifactId>test_hanyu</artifactId>
   <packaging>jar</packaging>
 
-  <name>test_hanhu</name>
+  <name>test_hanyu</name>
   <url>http://maven.apache.org</url>
 
   <properties>

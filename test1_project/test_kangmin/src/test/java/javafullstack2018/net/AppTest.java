@@ -43,7 +43,7 @@ public class AppTest
     public void testLarge()
     {
     	List<Integer> list = Arrays.asList(5, 9, 7, 11, 13,19,29,6,7,20,11,35,22,20,12,29);
- 
+    	
     	assertEquals(64, App.findMaxSum(list));
      }   
 }

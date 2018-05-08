@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class App {
     public static int findMaxSum(List<Integer> list) {
 	// put your code here
-        throw new UnsupportedOperationException("Waiting to be implemented.");
+        return(0);
     }
     
     public static void main(String[] args) {

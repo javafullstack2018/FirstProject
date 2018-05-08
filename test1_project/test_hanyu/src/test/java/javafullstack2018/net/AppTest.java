@@ -1,5 +1,8 @@
 package javafullstack2018.net;
 
+import java.util.Arrays;
+import java.util.List;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -28,11 +31,19 @@ public class AppTest
         return new TestSuite( AppTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
+    // sample case
+    public void testSample()
     {
-        assertTrue( true );
-    }
+    	List<Integer> list = Arrays.asList(5, 9, 7, 11);
+ 
+    	assertEquals(20, App.findMaxSum(list));
+     }
+    
+ // large data case 
+    public void testLarge()
+    {
+    	List<Integer> list = Arrays.asList(5, 9, 7, 11, 13,19,29,6,7,20,11,35,22,20,12,29);
+    	
+    	assertEquals(64, App.findMaxSum(list));
+     }   
 }
